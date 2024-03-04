@@ -42,7 +42,7 @@ const Classes = () => {
                 <Card className="cursor-grab">
                   <CardContent className="flex gap-8 flex-col  items-center justify-start h-[400px] p-6">
                     <h1 className="font-poppins font-bold text-xl mx-2">{item.title}</h1>
-                    <p className="font-poppins font-normal text-center text-muted-foreground">
+                    <p className="font-poppins font-normal text-center text-muted-foreground h-[200px]">
                       {item.description}
                     </p>
                     <item.Icon size={50} />

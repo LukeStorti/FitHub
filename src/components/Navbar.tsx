@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center px-2">
       <h1 className="flex flex-row items-center gap-2 font-poppins font-semibold text-4xl cursor-pointer">
-        <a href="home">FitHub</a>
+        <a href="/">FitHub</a>
         <Dumbbell />
       </h1>
 
@@ -77,7 +77,7 @@ const Navbar = () => {
             <ul className="list-none flex flex-col justify-center items-center gap-4 mt-4 font-poppins">
               {navlinks.map((link, index) => (
                 <li key={index}>
-                  <a href={`#${link.href}`}>{link.title}</a>
+                  <a href={`/${link.href}`}>{link.title}</a>
                 </li>
               ))}
             </ul>

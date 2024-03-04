@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 
 import hero from "../assets/hero.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -14,8 +15,12 @@ const Hero = () => {
           Where Sweat Becomes Strength and Every Challenge Ignites a Transformation!
         </p>
         <div className="flex flex-row items-center justify-start gap-8 w-full">
-          <Button variant="default">JOIN NOW</Button>
-          <Button variant="outline">FIND YOUR CLUB</Button>
+          <Link to="/join">
+            <Button variant="default">JOIN NOW</Button>
+          </Link>
+          <Link to="/clubs">
+            <Button variant="outline">FIND YOUR CLUB</Button>
+          </Link>
         </div>
       </div>
       <div className="flex flex-col w-full sm:w-1/2 ">

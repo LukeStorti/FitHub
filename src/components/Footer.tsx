@@ -1,5 +1,5 @@
 import { footerLinks } from "@/constants";
-import { Dumbbell, Mail, Phone } from "lucide-react";
+import { Dumbbell, Facebook, Instagram, Mail, Phone, Twitter, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -18,6 +18,12 @@ const Footer = () => {
             <Mail />
             info@fithub.com
           </p>
+        </div>
+        <div className="flex text-muted-foreground my-2 gap-4">
+          <Instagram className="cursor-pointer hover:text-primary" />
+          <Twitter className="cursor-pointer hover:text-primary" />
+          <Facebook className="cursor-pointer hover:text-primary" />
+          <Youtube className="cursor-pointer hover:text-primary" />
         </div>
       </div>
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
