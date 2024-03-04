@@ -1,5 +1,5 @@
 import Trainers from "@/components/Trainers";
-import about from "../assets/about.png";
+
 import about2 from "../assets/about2.png";
 
 const AboutPage = () => {
